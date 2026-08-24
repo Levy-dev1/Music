@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  background-color: #1A1F26;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border: 3px solid black;
+  background-color: #2E3640;
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+
+}
+
+li {
+  list-style: none;
+  margin-top: 16px;
+  margin-bottom: 10%;
+  background-color: #c71ac6;
+  
+}
+
+.menu-two {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.image {
+  background-image: url("Image/186125b3e333a241eec57c27347ed12b.png");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  
+}
+
+.heart {
+  background-image: url("Image/heart.svg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin-left: 10px;
+  
+}
+
+.play {
+  background-image: url("Image/play.svg");
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  
+}
+
+.heart-play {
+  position: absolute;
+  left: 50%;
+  bottom: 41%;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  margin-left: 15px;
+  
+}
+
+.step-forward {
+  background-image: url("Image/step-forward.svg");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  
+}
+
+.step-back {
+  background-image: url("Image/step-back.svg");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+
+  }
+
+.perfil {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 80%;
+  bottom: 90%;
+  display: flex;
+
+}
+
+.image-perfil {
+  background-image: url("Image/user.svg");
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+}
+
+.senttings {
+  background-image: url("Image/settings.svg");
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  
+}
+
+a:hover {
+  background-color: #ff00ff;
+}
+
+.Search {
+  position: absolute;
+  left: 50%;
+  top: 1%;
+  right: 2%;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  color: white;
+  background-color: #1A1F26;
+  border: 2px solid black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  
+}
